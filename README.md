@@ -1,4 +1,4 @@
-<h1 align="center"> 🔶 🌐 Browser Mirror Wall 🔶 </h1>
+<h1 align="center"> 🌐 Browser Mirror Wall 🌐 </h1>
 
 - This project aims to develop a mobile browser application using the Flutter framework
 and WebView technology. The application will enable users to browse the internet within the app
