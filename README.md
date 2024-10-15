@@ -53,5 +53,5 @@ enhance the knowledge and skills of IT students in mobile app development using 
 <h1 align="left"> </h1>
 
 <div align="center">
-<video src="https://github.com/user-attachments/assets/88d571e1-aa01-45bf-b54c-af32a2b4501a"/>
+<video src=""/>
 </div>
