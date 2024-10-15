@@ -41,7 +41,7 @@ enhance the knowledge and skills of IT students in mobile app development using 
 <div align="center">
   <img height="540" align="left" src="https://github.com/user-attachments/assets/ee9814f9-9dc1-4cac-93ca-0ae1f73b5aaf"/>
   <img height="540" src="https://github.com/user-attachments/assets/bee2f3ef-c598-4ce8-8c81-934003e2d334"/>
-  <img height="540"  align="right" src="https://github.com/user-attachments/assets/4e4d48fd-998f-42a6-a447-a4c7a18752a5/>
+  <img height="540"  align="right" src="https://github.com/user-attachments/assets/4e4d48fd-998f-42a6-a447-a4c7a18752a5"/>
 </div>
 
 <h1 align="left"> </h1>
