@@ -18,8 +18,8 @@ enhance the knowledge and skills of IT students in mobile app development using 
 ### 🔄 Refresh
 - Instantly reload any webpage with a single tap to get the latest updates.
 
-### 🔍 Change Search Engine
-- Switch between Google, Yahoo, Bing, or DuckDuckGo effortlessly for personalized searches.
+### ⬆️ Forward & ⬅️ Backward Navigation
+- Move back or forward between recently visited sites with intuitive navigation controls.
 
 ### 🗑️ Delete History
 - Clear your browsing history in one go to protect your privacy and free up space.
@@ -48,4 +48,10 @@ enhance the knowledge and skills of IT students in mobile app development using 
 
 <div align="center">
   <img height="540" src="https://github.com/user-attachments/assets/df6a9a3b-7c8f-41a3-9918-489e0b53adc9"/>
+</div>
+
+<h1 align="left"> </h1>
+
+<div align="center">
+<video src="https://github.com/user-attachments/assets/88d571e1-aa01-45bf-b54c-af32a2b4501a"/>
 </div>
