@@ -27,7 +27,7 @@ class HomePage extends StatelessWidget {
           backgroundColor: Colors.blue.shade800,
           leading: IconButton(
             onPressed: () {
-              refreshWeb(searchProviderTrue);
+              refreshWeb(searchProviderTrue.currentPage);
             },
             icon: const Icon(
               Icons.refresh,
@@ -138,7 +138,7 @@ class HomePage extends StatelessWidget {
                   onSubmitted: (value) {
                     if (value.isNotEmpty) {
                       searchProviderFalse.getSearchEngineUrl(value);
-                      refreshWeb(searchProviderTrue);
+                      refreshWeb(searchProviderTrue.setSearchEngine);
                     }
                   },
                   decoration: buildInputDecoration(),
@@ -162,10 +162,10 @@ class HomePage extends StatelessWidget {
                     webViewController = controller;
                   },
                   onLoadStart: (controller, url) {
-                    searchProviderFalse.updateLoadingStatus(true);
+                    searchProviderFalse.updateLoadingStatus(true,url.toString());
                   },
                   onLoadStop: (controller, url) {
-                    searchProviderFalse.updateLoadingStatus(false);
+                    searchProviderFalse.updateLoadingStatus(false,url.toString());
                     String query = txtSearch.text != ""
                         ? txtSearch.text
                         : searchProviderTrue.selectedSearchEngine;
@@ -188,7 +188,7 @@ class HomePage extends StatelessWidget {
                   onPressed: () {
                     searchProviderFalse.getSearchEngineUrl("");
                     txtSearch.clear();
-                    refreshWeb(searchProviderTrue);
+                    refreshWeb(searchProviderTrue.setSearchEngine);
                   },
                   icon: const Icon(Icons.home)),
               IconButton(

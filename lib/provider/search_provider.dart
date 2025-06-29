@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class SearchProvider extends ChangeNotifier{
-  String search = "", selectedSearchEngine = "Google",setSearchEngine = "https://www.google.com/search?q";
+  String search = "", selectedSearchEngine = "Google",setSearchEngine = "https://www.google.com/search?q",currentPage = "";
   bool isLoading = true;
   List<String> userHistory = [];
 
@@ -11,8 +11,9 @@ class SearchProvider extends ChangeNotifier{
     notifyListeners();
   }
 
-  void updateLoadingStatus(bool status){
+  void updateLoadingStatus(bool status,String url){
     isLoading = status;
+    currentPage = url;
     notifyListeners();
   }
 

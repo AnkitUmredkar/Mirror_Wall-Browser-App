@@ -19,17 +19,17 @@ class MyRadioTile extends StatelessWidget {
       onChanged: (value) {
         searchProviderFalse.changeSearchEngine(value!);
         searchProviderFalse.getSearchEngineUrl(query);
-        refreshWeb(searchProviderTrue);
+        refreshWeb(searchProviderTrue.setSearchEngine);
         Navigator.pop(context);
       },
     );
   }
 }
 
-Future<void>? refreshWeb(SearchProvider searchProviderTrue) {
+Future<void>? refreshWeb(String url) {
   return webViewController?.loadUrl(
     urlRequest: URLRequest(
-      url: WebUri(searchProviderTrue.setSearchEngine),
+      url: WebUri(url),
     ),
   );
 }
